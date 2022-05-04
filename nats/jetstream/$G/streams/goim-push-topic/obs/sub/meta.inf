@@ -1,0 +1,1 @@
+{"Created":"2022-04-28T12:48:30.805932Z","Name":"","durable_name":"sub","deliver_policy":"all","ack_policy":"explicit","ack_wait":30000000000,"max_deliver":-1,"filter_subject":"goim-push-topic","replay_policy":"instant","max_waiting":512,"max_ack_pending":65536}

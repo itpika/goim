@@ -1,0 +1,15 @@
+# This is a TOML document. Boom
+[discovery]
+    nodes = ["127.0.0.1:7171"]
+
+[kafka]
+    topic = "goim-push-topic"
+    group = "goim-push-group-job"
+    brokers = ["127.0.0.1:9092"]
+
+
+[nats]
+    stream = "goim-push-topic"
+    addr = "127.0.0.1:4222"
+    sub = "sub"
+    subtimeout = 600
